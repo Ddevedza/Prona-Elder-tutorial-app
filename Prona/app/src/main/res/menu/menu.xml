@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/my_menu">
+    <item android:id="@+id/podesavanja"
+        android:title="Podesavanja"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/oNama"
+        android:title="O nama"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/Dozvole"
+        android:title="Dozvole"
+        android:icon="@drawable/baseline_settings_24"
+        app:showAsAction="never"></item>
+    <item android:id="@+id/informacija"
+        android:title="Informacije"
+        android:icon="@drawable/_2175"
+        app:showAsAction="always"></item>
+</menu>

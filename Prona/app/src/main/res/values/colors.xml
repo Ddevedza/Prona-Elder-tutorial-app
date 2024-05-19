@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="text_color_white">#FFFFFFFF</color>
+    <color name="facebook_background">#3b5998</color>
+    <color name="gmail_backround">#FCFCFC</color>
+    <color name="instagram_backround">#E1306C</color>
+    <color name="whatsapp_backround">#25D366</color>
+    <color name="viber_backround">#7360F2</color>
+    <color name="gmail_text_color">#D93025</color>
+
+</resources>

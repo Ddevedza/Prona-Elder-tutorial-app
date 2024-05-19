@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    android:padding="10dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnUvod"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:fontFamily="@font/app_font"
+                android:text="UVOD"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+
+            <ProgressBar
+                android:id="@+id/uvodProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Uvod: Sta je Prona i zasto je koristiti?"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Upoznavanje sa telefonom: upoznavanje sa osnovnim karakteristikama telefona ekran, dugmad i kamera"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnPocetak"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Početak: Podešavanje aplikacije i kako je navigirati"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Navigacija na telefonu:  koriscenje ekrana na telefonu, kako pronaći, otvoriti i zatvoriti aplikacije"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Pozivanje i primanje poziva: osnove pozivanja i primanja poziva na telefonu"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Slanje i primanje tekstualnih poruka: osnove slanja i primanja tekstualnih poruka"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:fontFamily="@font/app_font"
+                android:text="Upravljanje kontaktima: način dodavanja i upravljanja kontaktima na telefonu"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.65"
+            android:background="@color/black"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="SOMETHING RANDOM"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center">
+
+        <ImageView
+            android:id="@+id/tinyHand"
+            android:layout_width="100dp"
+            android:layout_height="116dp"
+            android:layout_gravity="right|center"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/tiny_hand" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

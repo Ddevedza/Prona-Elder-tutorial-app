@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp">
+
+
+        <Button
+            android:id="@+id/btnUvod"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button"
+            app:backgroundTint="@null"
+            android:text="UVOD"
+            android:fontFamily="@font/app_font"
+            android:textSize="70sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"
+            />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btnFacebook"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_facebook"
+            android:text="Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <!--            <ImageButton-->
+        <!--                app:srcCompat="@drawable/facebook_new_logo__2015__svg"-->
+        <!--                android:background="@drawable/rounded_button"-->
+        <!--                android:layout_margin="5dp"-->
+        <!--                android:id="@+id/btnFacebook"-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="170dp"-->
+        <!--                android:backgroundTint="@color/white"-->
+        <!--                android:contentDescription="@string/app_name"-->
+        <!--                android:scaleType="fitXY"-->
+        <!--                />-->
+
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/btnGmail"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="170dp"-->
+        <!--            android:layout_margin="5dp"-->
+        <!--            android:background="@drawable/rounded_button"-->
+        <!--            android:backgroundTint="@color/white"-->
+        <!--            android:contentDescription="@string/app_name"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            app:srcCompat="@drawable/pokusaj" />-->
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/imgbtnInstagram"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="170dp"-->
+        <!--            android:layout_margin="5dp"-->
+        <!--            android:background="@drawable/rounded_button"-->
+        <!--            android:backgroundTint="@color/white"-->
+        <!--            android:contentDescription="@string/app_name"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            app:srcCompat="@drawable/instagram_logo" />-->
+
+        <Button
+            android:id="@+id/btnGmail"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_gmail"
+            android:fontFamily="@font/gmail_font"
+            android:text="Gmail"
+            android:textAllCaps="false"
+            android:textColor="#D93025"
+            android:textSize="64sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnInstagram"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_instagram"
+            android:fontFamily="@font/instagram"
+            android:text="Instagram"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="58sp"
+            app:backgroundTint="@null" />
+
+        <Button
+            android:id="@+id/btnViber"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_viber"
+            android:fontFamily="@font/viber"
+            android:letterSpacing="0.2"
+            android:text="Viber"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="@null" />
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/btnViber"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="170dp"-->
+        <!--            android:layout_margin="5dp"-->
+        <!--            android:background="@drawable/rounded_button"-->
+        <!--            android:backgroundTint="@color/white"-->
+        <!--            android:contentDescription="@string/app_name"-->
+        <!--            android:scaleType="fitXY"-->
+        <!--            app:srcCompat="@drawable/a99f5dc975cba8c04ca3fb31b66fa6ea__1_" />-->
+
+
+        <Button
+            android:id="@+id/btnWhatsapp"
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/rounded_button_whatsapp"
+            android:fontFamily="@font/whatsapp_font"
+            android:text="Whatsapp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            app:backgroundTint="@null"
+            />
+
+
+        <!--        <ImageButton-->
+        <!--            android:id="@+id/btnWhatsapp"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="170dp"-->
+        <!--            android:layout_margin="5dp"-->
+        <!--            android:layout_marginBottom="2dp"-->
+        <!--            android:background="@drawable/rounded_button"-->
+        <!--            android:backgroundTint="@color/white"-->
+        <!--            android:contentDescription="@string/app_name"-->
+        <!--            android:scaleType="fitXY"-->
+
+
+    </LinearLayout>
+
+
+</ScrollView>

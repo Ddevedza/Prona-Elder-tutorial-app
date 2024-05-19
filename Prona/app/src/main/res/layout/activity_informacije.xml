@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:justificationMode="inter_word"
+        android:text="Hvala Vam sto ste izabrali bas nas kao svoje prvo digitalno putovanje! Zamolili bi smo Vas da pre pocetka ovog tutorijala procitate ovo uputstvo:\n\n  Prilikom prvog koriscenja, savetujemo Vam da ovu aplikaciju koristite u prisustvu jos jedne osobe radi pokretanja prvobitnog tutorijala. Nakon predjenog treceg uvodnog tutorijala, imacete dovoljno znanja da otvorate i koristite ovu aplikaciju, stoga dalje prisustvo neke osobe nije potrebno.\n Takodje kako bi aplikacija mogla funkcionisati, zamolili bi smo Vas da prihvatite osnovne uslove koriscenja, o pravima i namenama uslova koriscenja mozete procitati u dokumentaciji aplikacije.\n\n\nHvala jos jednom sto bas nas odabrali kao Vase prvo iskustvo! - Prona tim">
+    </TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

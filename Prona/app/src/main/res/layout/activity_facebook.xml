@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    android:padding="10dp"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="FACEBOOK"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Uvod: Sta je Prona i zasto je koristiti?"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Upoznavanje sa telefonom: upoznavanje sa osnovnim karakteristikama telefona ekran, dugmad i kamera"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Početak: Podešavanja aplikacije i kako je pristupiti na telefonu"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Navigacija na telefonu:  koriscenje ekrana na telefonu, kako pronaći, otvoriti i zatvoriti aplikacije"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Pozivanje i primanje poziva: osnove pozivanja i primanja poziva na telefonu"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Slanje i primanje tekstualnih poruka: osnove slanja i primanja tekstualnih poruka"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:backgroundTint="@color/facebook_background"
+            android:textColor="@color/white"
+            android:text="Upravljanje kontaktima: način dodavanja i upravljanja kontaktima na telefonu"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

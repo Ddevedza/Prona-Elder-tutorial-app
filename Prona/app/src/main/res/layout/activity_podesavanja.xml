@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Podesavanja">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Switch
+            android:id="@+id/GlasSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="Glas" />
+
+        <TextView
+            android:id="@+id/PauzaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Pauza izmedju ponavljanja glasa" />
+
+        <SeekBar
+            android:id="@+id/GlasSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/GlasTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="2dp"
+            android:text="10" />
+
+        <Switch
+            android:id="@+id/TextSwitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingTop="10dp"
+            android:text="Text" />
+
+
+        <TextView
+            android:id="@+id/FontTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Font slova" />
+
+        <SeekBar
+            android:id="@+id/FontSlovaPrikazSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="4dp" />
+
+        <TextView
+            android:id="@+id/FontSlovaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="2dp"
+            android:paddingBottom="7dp"
+            android:text="14" />
+
+
+        <TextView
+            android:id="@+id/PrikazFontaTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:justificationMode="inter_word"
+            android:padding="10dp"
+            android:text="Ovaj text prikazuje velicinu fonta. Prevlacenjem slajdera u levo (za smanjenje) ili desno (za povecanje) mozete odabrati koliki ce font biti unutar tutorijala aplikacije."
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutMessage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/myTextView"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="SOMETHING RANDOM"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.7"
+            android:background="@color/black"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="right|center">
+
+        <ImageView
+            android:id="@+id/tinyHand"
+            android:layout_width="100dp"
+            android:layout_height="116dp"
+            android:layout_gravity="right|center"
+            android:layout_weight="1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/tiny_hand" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
