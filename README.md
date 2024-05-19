@@ -1,0 +1,1 @@
+Visually presentable app for competition. Created as a prototype of an idea for an app that teaches elders how to use apps like facebook, instagram, etc. in an interactive, game tutorial kind of a way.
